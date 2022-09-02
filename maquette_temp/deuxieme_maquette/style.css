@@ -1,0 +1,78 @@
+<style>
+
+body {
+        background-color: #F0F0F2;
+      }
+	.image1 {
+float: left;
+margin: 0 15px 15px 0;
+}
+.bloc-input
+{
+	width: 110px;
+	border-radius: 25px 25px 25px 25px;
+	height: 30px;
+	border-width: 0.5px;
+	border-color: #9370DB;
+	background-color: white;
+}
+.text2
+{
+	position: relative;
+	right: 50px;
+}
+.flotte {
+float:right;
+}
+.flotte1 {
+float:left;
+}
+img, span{
+  vertical-align : middle;
+}
+.truc-a-centrer {
+  position: absolute; /* postulat de départ */
+  top: 50%; left: 40%; /* à 50%/40% du parent référent */
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
+
+ 
+
+   li {
+list-style:none !important; /*On enlève les puces de la liste */
+color:#FFF;
+padding:10px;
+font-size:20px;
+text-decoration:none;
+}
+ 
+nav ul {
+
+padding:0;
+margin:0;
+}
+ 
+nav ul li {
+list-style: none;
+line-height:44px;
+float:left;
+
+}
+ 
+nav ul li a {
+
+padding:10px;
+font-size:20px;
+text-decoration:none;
+}
+
+     .section2
+{
+	display: flex;
+	margin-left: 300px;
+	width: 900px;
+	position: relative;
+	top: 10px;
+}
+
+</style>
